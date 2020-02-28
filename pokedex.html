@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="pokedex.css">
+
+  </head>
+  <body>
+    <div class="lanav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="https://img.icons8.com/color/48/000000/snorlax.png">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="poke.html"><img src="https://img.icons8.com/color/48/000000/pikachu-pokemon.png"> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="pokedex.html"><img src="https://img.icons8.com/color/48/000000/pokedex.png">Pokedex</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="gymleaders.html"><img src="https://img.icons8.com/color/48/000000/instinct-pokemon.png">Gym Leaders</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/apple-map.png">Map</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <h1 id="dex">Smaller Version of the Complete Pokemon Pokedex</h1>
+
+      <table border="1">
+        <thead>
+          <th>Number</th>
+          <th>Name</th>
+          <th>Type</th>
+        </thead>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\001-Bulbasaur@2x.png">001</td>
+          <td>Bulbasaur</td>
+          <td><button id="grass" class="btn btn-primary" type="submit">Grass</button> <button id="poison" class="btn btn-primary" type="submit">Poison</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\002-ivysaur@2x.png" alt="">002</td>
+          <td>Ivysaur</td>
+          <td><button id="grass" class="btn btn-primary" type="submit">Grass</button> <button id="poison" class="btn btn-primary" type="submit">Poison</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\003-venusaur@2x.png" alt="">003</td>
+          <td>Venusaur</td>
+          <td><button id="grass" class="btn btn-primary" type="submit">Grass</button> <button id="poison" class="btn btn-primary" type="submit">Poison</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\004-charmander@2x.png" alt="">004</td>
+          <td>Charmander</td>
+          <td><button id="fire" class="btn btn-primary" type="submit">Fire</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\005-charmeleon@2x.png" alt="">005</td>
+          <td>Charmeleon</td>
+          <td><button id="fire" class="btn btn-primary" type="submit">Fire</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\006-charizard@2x.png" alt="">006</td>
+          <td>Charizard</td>
+          <td><button id="fire" class="btn btn-primary" type="submit">Fire</button> <button id="flying" class="btn btn-primary" type="submit">Flying</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\007-squirtle@2x.png" alt="">007</td>
+          <td>Squirtle</td>
+          <td><button id="water" class="btn btn-primary" type="submit">Water</button> </td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\008-wartortle@2x.png" alt="">008</td>
+          <td>Wartortle</td>
+          <td><button id="water" class="btn btn-primary" type="submit">Water</button> </td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\009-blastoise@2x.png" alt="">009</td>
+          <td>Blastoise</td>
+          <td><button id="water" class="btn btn-primary" type="submit">Water</button> </td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\010-caterpie@2x.png" alt="">010</td>
+          <td>Caterpie</td>
+          <td><button id="bug" class="btn btn-primary" >Bug</button> </td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\011-metapod@2x.png" alt="">011</td>
+          <td>Metapod</td>
+          <td><button id="bug" class="btn btn-primary">Bug</button> </td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\012-butterfree@2x.png" alt="">012</td>
+          <td>Butterfree</td>
+          <td><button id="bug" class="btn btn-primary" type="submit">Bug</button> <button id="flying" class="btn btn-primary" type="submit">Flying</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\013-weedle@2x.png" alt="">013</td>
+          <td>Weedle</td>
+          <td><button id="bug" class="btn btn-primary" type="submit">Bug</button> <button id="poison" class="btn btn-primary" type="submit">Poison</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\014-kakuna@2x.png" alt="">014</td>
+          <td>Kakuna</td>
+          <td><button id="bug" class="btn btn-primary" type="submit">Bug</button> <button id="poison" class="btn btn-primary" type="submit">Poison</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\015-beedrill@2x.png" alt="">015</td>
+          <td>Beedrill</td>
+          <td><button id="bug" class="btn btn-primary" type="submit">Bug</button> <button id="poison" class="btn btn-primary" type="submit">Poison</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\016-pidgey@2x.png" alt="">016</td>
+          <td>Pidgey</td>
+          <td><button id="normal" class="btn btn-primary" type="submit">Normal</button> <button id="flying" class="btn btn-primary" type="submit">Flying</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\017-pidgeotto@2x.png" alt="">017</td>
+          <td>Pidgeotto</td>
+          <td><button id="normal" class="btn btn-primary" type="submit">Normal</button> <button id="flying" class="btn btn-primary" type="submit">Flying</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\018-pidgeot@2x.png" alt="">018</td>
+          <td>Pidgeot</td>
+          <td><button id="normal" class="btn btn-primary" type="submit">Normal</button> <button id="flying" class="btn btn-primary" type="submit">Flying</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\019-rattata@2x.png" alt="">019</td>
+          <td>Rattata</td>
+          <td><button id="normal" class="btn btn-primary" type="submit">Normal</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\020-raticate@2x.png" alt="">020</td>
+          <td>Raticate</td>
+          <td><button id="normal" class="btn btn-primary" type="submit">Normal</button></td>
+        </tr>
+        <tr>
+          <td><img src="C:\Users\smont\OneDrive\Desktop\udemy\pokemon\poke pics\pokemon-icons\PNG\2x\021-spearow@2x.png" alt="">021</td>
+          <td>Spearow</td>
+          <td><button id="normal" class="btn btn-primary">Normal</button> <button id="flying" class="btn btn-primary" >Flying</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

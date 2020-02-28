@@ -1,0 +1,64 @@
+
+#grass{
+  background-color: #06cf0a;
+}
+
+#poison {
+  background-color: #6e059c;
+}
+
+#fire {
+  background-color: #f01f1f;
+}
+
+#flying {
+  background-color: #5ebceb;
+}
+
+#water {
+  background-color: #1e63ebc;
+}
+
+#bug {
+  background-color: #80bf13;
+}
+
+#normal {
+  background-color: #a19c9c;
+}
+
+table {
+  margin-top: 3%;
+  width: 90%;
+  border: 2px solid black;
+}
+th{
+
+  border: 2px solid black;
+  padding-left: 5%;
+  font-weight: 550;
+  font-size: 17px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+td {
+  padding-top: 1.66%;
+  padding-bottom: 1.66%;
+  border: 2px solid black;
+  padding-left: 5%;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Aldrich', sans-serif;
+}
+
+img {
+  padding-right: 10%;
+}
+
+h1 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
